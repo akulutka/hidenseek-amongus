@@ -11,3 +11,5 @@
 - If there is 1 kill remains for Seekers to win, Hiders are colored black.
 
 You can modify round time and hiding time with `setround <seconds>` and `sethide <seconds>` commands. 
+
+[Download](https://github.com/shoraii/hidenseek-amongus/releases)
