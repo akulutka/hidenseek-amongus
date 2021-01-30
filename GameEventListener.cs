@@ -69,7 +69,7 @@ namespace Impostor.Plugins.HideNSeek.Handlers
                     var info = player.Character.PlayerInfo;
                     if (info.IsImpostor)
                     {
-                        player.Character.SetMurderedAsync();
+                        player.Character.SetMurderedByAsync(player);
                     }
                 }
             }
@@ -166,7 +166,7 @@ namespace Impostor.Plugins.HideNSeek.Handlers
                 var info = player.Character.PlayerInfo;
                 if (info.IsImpostor)
                 {
-                    player.Character.SetMurderedAsync();
+                    player.Character.SetMurderedByAsync(player);
                 }
             }
             impostorTimer.Stop();

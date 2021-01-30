@@ -8,10 +8,10 @@ using Microsoft.Extensions.Logging;
 namespace Impostor.Plugins.HideNSeek
 {
     [ImpostorPlugin(
-        package: "me.shoraii.hidenseek",
+        package: "io.github.shoraii.hidenseek",
         name: "HideNSeek",
         author: "shoraii",
-        version: "0.1.0")]
+        version: "0.1.1")]
     public class HideNSeekPlugin : PluginBase
     {
         private readonly ILogger<HideNSeekPlugin> _logger;
